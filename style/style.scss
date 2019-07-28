@@ -1,0 +1,62 @@
+body {
+  background-image: linear-gradient(148deg, black 80%, gold);
+  background-repeat: no-repeat;
+  //height: 100vh;
+  color: white;
+  a {
+    text-decoration: none;
+  }
+}
+
+header {
+  .p-gub {
+    padding: 32px;
+    //border: 1px solid white;
+  }
+  img {
+    width: 40%;
+    height: auto;
+  }
+  h1 {
+    float: right;
+    font-size: 3.75em;
+  }
+  .caption {
+    padding: 64px;
+  }
+}
+nav {
+  a {
+    margin: 4px !important;
+    border-bottom: 1px solid gold !important;
+  }
+
+  .w3-button:hover {
+    background-color: gold !important;
+  }
+  .w3-bar {
+    padding-top: 32px;
+  }
+  .ex {
+    border: none !important;
+  }
+}
+main {
+  .motagning {
+    padding-top: 64px;
+    h1 {
+      font-size: 4.75em;
+    }
+  }
+  .med {
+    background-color: gold;
+    color: black;
+    border-radius: 88px;
+  }
+}
+#con {
+  margin-top: 64px;
+}
+footer {
+  margin-top: 32px;
+}
